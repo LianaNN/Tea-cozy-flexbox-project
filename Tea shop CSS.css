@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+    opacity: 0.9;
+}
+
+.flex-container {
+    display: flex;
+    margin: 10px;
+    height: 69px;
+    
+}
+
+.image1 {
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.mission {
+    text-decoration: underline; 
+}
+
+.featured {
+    text-decoration: underline; 
+}
+
+.locations {
+    text-decoration: underline; 
+}
+
+.image2 {
+    height: 700px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    top: 50%;
+    bottom: 20px;
+    right: 20px;
+    left: 50%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 130px;
+    text-align: center;
+  }
+
+  .tea_of_the_month {
+    background-color: black;
+    width: 1000px;
+    text-align: center;
+    border: auto;
+    padding-left: 250px;
+  }
+
+  .berry_blitz {
+    height: 200px;
+    width: 300px; 
+  }
+
+  .berry {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .spiced_rum {
+    height: 200px;
+    width: 300px; 
+  }
+
+  .rum {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .seasonal_donut {
+    height: 200px;
+    width: 300px;  
+  }
+
+  .donut {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  .bedford_bizzare {
+    height: 200px;
+    width: 300px;  
+  }
+
+  .bedford {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .myrtle_tea {
+    height: 200px;
+    width: 300px;  
+  }
+
+  .myrtle {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #contwrap {
+    flex-Wrap: wrap;
+    justify-content: center;
+    width: 1100px;
+    margin: auto;
+  }
+
